@@ -146,7 +146,7 @@ public class BaseClass {
 		Reporter.log("Scenario 01: Log into EWA");
 		Reporter.log("Enter valid user name into username field");
 
-		UserName.sendKeys("nisha");
+		UserName.sendKeys("pujita");
 		Thread.sleep(3000);
 		driver.findElement(By.id("loginPassword")).sendKeys("syntax@10");
 		Reporter.log("Enter valid password into password field", true);
