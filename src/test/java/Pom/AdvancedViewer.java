@@ -327,7 +327,7 @@ public class AdvancedViewer extends BaseClass {
 				      Reporter.log("Select document type");
 				
 				      Actions act = new Actions(driver);
-				      act.click(DocumentCVRep).sendKeys(readFrmXLNEgative(6, 0)).build().perform();
+				      act.click(DocumentCVRep).sendKeys("JenkinsDoc").build().perform();
 				      Reporter.log("Enter document name");
 				
 				      wait.until(ExpectedConditions.elementToBeClickable(CreateBTN));
@@ -347,7 +347,7 @@ public class AdvancedViewer extends BaseClass {
 				      Thread.sleep(2000); // Adding sleep for stability
 				      jsclick(WordDocument);
 				
-				      EnterFileNAmePDF.sendKeys(readFromExAdvancedView(3, 1));
+				      EnterFileNAmePDF.sendKeys("Jenkins");
 				      Reporter.log("Enter word document name");
 				
 				      jsclick(EnterFileNameOKBTN);
@@ -360,6 +360,7 @@ public class AdvancedViewer extends BaseClass {
 				      Thread.sleep(2000); // Adding sleep for stability
 				      Reporter.log("Click on save dialog OK button");
 				      jsclick(SaveTabOKBTN);
+					   Reporter.log("Jenkins creaated docccccument list="+i);
 				  }
 				
 	/*	    for (int i = 0; i <= 100; i++) {
