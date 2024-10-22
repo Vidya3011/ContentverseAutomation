@@ -116,7 +116,7 @@ public class AdvancedViewer extends BaseClass {
 	@FindBy(xpath = "//div[@id='viewDocumentnavigator']/ul/li[1]/ul/li/ins") // drawer bill
 	private WebElement FirstDrawer;
 
-	@FindBy(xpath = "//div[@id='viewDocumentnavigator']/ul/li[1]/ul/li[1]/ul/li[1]/a") // folderbill
+	@FindBy(xpath = "//div[@id='viewDocumentnavigator']/ul/li[1]/ul/li[1]/ul/li[2]/a") // folderbill
 	private WebElement FirstFolder;
 
 	@FindBy(xpath = "//*[@id=\"documentListTable\"]//tr[1]/td[3]") // change tr number to select 2 or 4 docs tr[5]
