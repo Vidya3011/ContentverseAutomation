@@ -34,7 +34,7 @@ public class Creating_More_Document extends BaseClass {
 	}
 
 	
-	@Test(priority = 2,invocationCount=100)
+	@Test(priority = 2)
 	public void TC_1_ShowThumbnail() throws Exception {
 
 		AdvancedViewer adv = new AdvancedViewer();
